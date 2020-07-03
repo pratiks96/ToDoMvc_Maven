@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE ToDoMVC Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.mvc.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Free ToDoMVC App Test Cases(failed)">
+    <classes>
+      <class name="com.mvc.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="downwardArrowCompleteTab"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mvc.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Free ToDoMVC App Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE ToDoMVC Application Test Automation Test Suite] -->

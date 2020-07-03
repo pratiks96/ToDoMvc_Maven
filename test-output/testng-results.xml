@@ -1,109 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="178912" started-at="2020-06-29T16:03:16 IST" finished-at="2020-06-29T16:06:15 IST">
+  <suite name="FREE ToDoMVC Application Test Automation Test Suite" duration-ms="264406" started-at="2020-07-03T00:16:20 IST" finished-at="2020-07-03T00:20:44 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="178912" started-at="2020-06-29T16:03:16 IST" finished-at="2020-06-29T16:06:15 IST">
-      <class name="com.mvc.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="9562" started-at="2020-06-29T16:03:16 IST" finished-at="2020-06-29T16:03:26 IST">
+    <test name="Free ToDoMVC App Test Cases" duration-ms="264406" started-at="2020-07-03T00:16:20 IST" finished-at="2020-07-03T00:20:44 IST">
+      <class name="com.mvc.qa.testcases.TabTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="setUp" is-config="true" duration-ms="7545" started-at="2020-07-03T00:19:21 IST" finished-at="2020-07-03T00:19:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addEdit()[pri:1, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="addEdit" duration-ms="20795" started-at="2020-06-29T16:03:26 IST" finished-at="2020-06-29T16:03:47 IST">
+        <test-method status="PASS" signature="clearTab()[pri:11, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="clearTab" duration-ms="9493" started-at="2020-07-03T00:19:28 IST" finished-at="2020-07-03T00:19:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="tearDown" is-config="true" duration-ms="688" started-at="2020-07-03T00:19:38 IST" finished-at="2020-07-03T00:19:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="setUp" is-config="true" duration-ms="8435" started-at="2020-07-03T00:19:39 IST" finished-at="2020-07-03T00:19:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="allTab()[pri:12, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="allTab" duration-ms="14179" started-at="2020-07-03T00:19:47 IST" finished-at="2020-07-03T00:20:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="tearDown" is-config="true" duration-ms="703" started-at="2020-07-03T00:20:01 IST" finished-at="2020-07-03T00:20:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="setUp" is-config="true" duration-ms="8933" started-at="2020-07-03T00:20:02 IST" finished-at="2020-07-03T00:20:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="activeTab()[pri:13, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="activeTab" duration-ms="14904" started-at="2020-07-03T00:20:11 IST" finished-at="2020-07-03T00:20:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activeTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="tearDown" is-config="true" duration-ms="683" started-at="2020-07-03T00:20:26 IST" finished-at="2020-07-03T00:20:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="setUp" is-config="true" duration-ms="8825" started-at="2020-07-03T00:20:26 IST" finished-at="2020-07-03T00:20:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="completeTab()[pri:14, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="completeTab" duration-ms="8024" started-at="2020-07-03T00:20:35 IST" finished-at="2020-07-03T00:20:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTab -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.TabTest@4b4523f8]" name="tearDown" is-config="true" duration-ms="872" started-at="2020-07-03T00:20:43 IST" finished-at="2020-07-03T00:20:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mvc.qa.testcases.TabTest -->
+      <class name="com.mvc.qa.testcases.LinkTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.LinkTest@5a8e6209]" name="setUp" is-config="true" duration-ms="8014" started-at="2020-07-03T00:19:04 IST" finished-at="2020-07-03T00:19:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Addition()[pri:0, instance:com.mvc.qa.testcases.LinkTest@5a8e6209]" name="Addition" duration-ms="7835" started-at="2020-07-03T00:19:12 IST" finished-at="2020-07-03T00:19:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addition -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.LinkTest@5a8e6209]" name="tearDown" is-config="true" duration-ms="809" started-at="2020-07-03T00:19:20 IST" finished-at="2020-07-03T00:19:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mvc.qa.testcases.LinkTest -->
+      <class name="com.mvc.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="9324" started-at="2020-07-03T00:16:20 IST" finished-at="2020-07-03T00:16:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addEdit()[pri:1, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="addEdit" duration-ms="22667" started-at="2020-07-03T00:16:29 IST" finished-at="2020-07-03T00:16:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addEdit -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="764" started-at="2020-06-29T16:03:47 IST" finished-at="2020-06-29T16:03:47 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="1120" started-at="2020-07-03T00:16:52 IST" finished-at="2020-07-03T00:16:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="8638" started-at="2020-06-29T16:03:47 IST" finished-at="2020-06-29T16:03:56 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="8664" started-at="2020-07-03T00:16:53 IST" finished-at="2020-07-03T00:17:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addSpecialChar()[pri:2, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="addSpecialChar" duration-ms="16169" started-at="2020-06-29T16:03:56 IST" finished-at="2020-06-29T16:04:12 IST">
+        <test-method status="PASS" signature="addSpecialChar()[pri:2, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="addSpecialChar" duration-ms="7168" started-at="2020-07-03T00:17:02 IST" finished-at="2020-07-03T00:17:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addSpecialChar -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="733" started-at="2020-06-29T16:04:12 IST" finished-at="2020-06-29T16:04:13 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="697" started-at="2020-07-03T00:17:09 IST" finished-at="2020-07-03T00:17:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="8626" started-at="2020-06-29T16:04:13 IST" finished-at="2020-06-29T16:04:22 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="8713" started-at="2020-07-03T00:17:09 IST" finished-at="2020-07-03T00:17:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="spaceBar()[pri:3, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="spaceBar" duration-ms="7662" started-at="2020-06-29T16:04:22 IST" finished-at="2020-06-29T16:04:29 IST">
+        <test-method status="PASS" signature="spaceBar()[pri:3, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="spaceBar" duration-ms="6549" started-at="2020-07-03T00:17:18 IST" finished-at="2020-07-03T00:17:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spaceBar -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="702" started-at="2020-06-29T16:04:29 IST" finished-at="2020-06-29T16:04:30 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="765" started-at="2020-07-03T00:17:25 IST" finished-at="2020-07-03T00:17:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="8728" started-at="2020-06-29T16:04:30 IST" finished-at="2020-06-29T16:04:39 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="8900" started-at="2020-07-03T00:17:25 IST" finished-at="2020-07-03T00:17:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="duplicate()[pri:4, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="duplicate" duration-ms="17081" started-at="2020-06-29T16:04:39 IST" finished-at="2020-06-29T16:04:56 IST">
+        <test-method status="PASS" signature="duplicate()[pri:4, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="duplicate" duration-ms="16932" started-at="2020-07-03T00:17:34 IST" finished-at="2020-07-03T00:17:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- duplicate -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="718" started-at="2020-06-29T16:04:56 IST" finished-at="2020-06-29T16:04:57 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="687" started-at="2020-07-03T00:17:51 IST" finished-at="2020-07-03T00:17:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="15334" started-at="2020-06-29T16:04:57 IST" finished-at="2020-06-29T16:05:12 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="7218" started-at="2020-07-03T00:17:52 IST" finished-at="2020-07-03T00:17:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="infiniteChar()[pri:5, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="infiniteChar" duration-ms="13124" started-at="2020-06-29T16:05:12 IST" finished-at="2020-06-29T16:05:25 IST">
+        <test-method status="PASS" signature="infiniteChar()[pri:5, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="infiniteChar" duration-ms="13324" started-at="2020-07-03T00:17:59 IST" finished-at="2020-07-03T00:18:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- infiniteChar -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="702" started-at="2020-06-29T16:05:25 IST" finished-at="2020-06-29T16:05:26 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="718" started-at="2020-07-03T00:18:13 IST" finished-at="2020-07-03T00:18:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="8248" started-at="2020-06-29T16:05:26 IST" finished-at="2020-06-29T16:05:34 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="9046" started-at="2020-07-03T00:18:13 IST" finished-at="2020-07-03T00:18:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteToDo()[pri:6, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="deleteToDo" duration-ms="11688" started-at="2020-06-29T16:05:34 IST" finished-at="2020-06-29T16:05:46 IST">
+        <test-method status="PASS" signature="deleteToDo()[pri:6, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="deleteToDo" duration-ms="11420" started-at="2020-07-03T00:18:22 IST" finished-at="2020-07-03T00:18:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteToDo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="718" started-at="2020-06-29T16:05:46 IST" finished-at="2020-06-29T16:05:46 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="672" started-at="2020-07-03T00:18:34 IST" finished-at="2020-07-03T00:18:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="8121" started-at="2020-06-29T16:05:46 IST" finished-at="2020-06-29T16:05:54 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="7897" started-at="2020-07-03T00:18:34 IST" finished-at="2020-07-03T00:18:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="downwardArrowCompleteTab()[pri:7, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="downwardArrowCompleteTab" duration-ms="6588" started-at="2020-06-29T16:05:54 IST" finished-at="2020-06-29T16:06:01 IST">
+        <test-method status="PASS" signature="downwardArrowCompleteTab()[pri:7, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="downwardArrowCompleteTab" duration-ms="5956" started-at="2020-07-03T00:18:42 IST" finished-at="2020-07-03T00:18:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downwardArrowCompleteTab -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="763" started-at="2020-06-29T16:06:01 IST" finished-at="2020-06-29T16:06:02 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="685" started-at="2020-07-03T00:18:48 IST" finished-at="2020-07-03T00:18:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="setUp" is-config="true" duration-ms="7635" started-at="2020-06-29T16:06:02 IST" finished-at="2020-06-29T16:06:09 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="setUp" is-config="true" duration-ms="9135" started-at="2020-07-03T00:18:49 IST" finished-at="2020-07-03T00:18:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="downwardArrowActiveTab()[pri:8, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="downwardArrowActiveTab" duration-ms="5000" started-at="2020-06-29T16:06:09 IST" finished-at="2020-06-29T16:06:14 IST">
+        <test-method status="PASS" signature="downwardArrowActiveTab()[pri:8, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="downwardArrowActiveTab" duration-ms="4990" started-at="2020-07-03T00:18:58 IST" finished-at="2020-07-03T00:19:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- downwardArrowActiveTab -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@520a3426]" name="tearDown" is-config="true" duration-ms="714" started-at="2020-06-29T16:06:14 IST" finished-at="2020-06-29T16:06:15 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mvc.qa.testcases.HomePageTest@3b0143d3]" name="tearDown" is-config="true" duration-ms="1114" started-at="2020-07-03T00:19:03 IST" finished-at="2020-07-03T00:19:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mvc.qa.testcases.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Free ToDoMVC App Test Cases -->
+  </suite> <!-- FREE ToDoMVC Application Test Automation Test Suite -->
 </testng-results>

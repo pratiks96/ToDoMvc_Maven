@@ -5,7 +5,10 @@
     <classes>
       <class name="com.mvc.qa.testcases.HomePageTest">
         <methods>
+          <include name="duplicate"/>
           <include name="deleteToDo"/>
+          <include name="spaceBar"/>
+          <include name="infiniteChar"/>
           <include name="downwardArrowActiveTab"/>
           <include name="tearDown"/>
           <include name="downwardArrowCompleteTab"/>
